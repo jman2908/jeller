@@ -230,6 +230,14 @@ input[type=submit] {
     position: static;
   }
 
+#logo {
+  margin-left: 20px;
+}
+
+nav {
+  margin-right: 20px;
+}
+
 }
 
 @media screen and (max-width:640px) {

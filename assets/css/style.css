@@ -216,8 +216,9 @@ input[type=submit] {
   border: 0 none;
 }
 
+
 @media (max-width:980px) {
-  
+
 }
 
 @media screen and (max-width:768px) {
@@ -225,5 +226,18 @@ input[type=submit] {
 }
 
 @media screen and (max-width:640px) {
-  
+  #masthead {
+    
+  }
+
+  #logo {
+    float: left;
+    width: 100%;
+  }
+
+  nav {
+    clear: auto;
+    margin-right: 30%;
+  }
+
 }

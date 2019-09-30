@@ -218,16 +218,23 @@ input[type=submit] {
 
 
 @media (max-width:980px) {
+ #masthead {
+   position: static;
+ }
 
 }
 
 @media screen and (max-width:768px) {
-  
+  #masthead {
+    position: static;
+  }
+
 }
 
 @media screen and (max-width:640px) {
   #masthead {
-    
+    position: static;
+    margin-bottom: -90px;
   }
 
   #logo {
@@ -239,5 +246,17 @@ input[type=submit] {
     clear: auto;
     margin-right: 30%;
   }
+  .auth-image {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  #main.container {
+    padding-top: 30px;
+  }
+
+ .main-section {
+   padding-top: 6px;
+ }
 
 }

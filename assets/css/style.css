@@ -222,6 +222,7 @@ input[type=submit] {
    position: static;
  }
 
+
 }
 
 @media screen and (max-width:768px) {
@@ -253,10 +254,19 @@ input[type=submit] {
 
   #main.container {
     padding-top: 30px;
+    
   }
 
  .main-section {
    padding-top: 6px;
+ }
+ .work {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 350px;
+  margin: 20px 0 25px;
+  overflow: hidden;
  }
 
 }
